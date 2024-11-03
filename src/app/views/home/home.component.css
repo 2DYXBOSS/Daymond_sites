@@ -1,0 +1,437 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+.opp-box{
+    font-weight: bolder;text-transform: uppercase;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pad-block{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.font-bold{
+    font-weight: bolder;
+}
+.border-none{
+    border: none;
+    box-shadow: 0.5px 0.5px 3px 2px rgba(235, 234, 234, 0.723);
+}
+
+
+
+.card{
+    border-radius: 12px;
+}
+.g-card-5{
+    position: relative;
+}
+.card-5{
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.g-card-6{
+    padding-left: 40px;
+}
+.card-6{
+    height: 90%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.card-7{
+    height: 90%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+.card-8{
+    height: 94%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.icon-block{
+    background-color: #FFA100;position: relative;padding-top: 100px;
+}
+.icon1{
+    position: absolute;top: 50px;left: 50px;
+}
+.icon2{
+    position: absolute;top: 160px;left: 90px;
+}
+.icon3{
+    position: absolute;top: 500px;left: 50px;
+}
+.icon4{
+    position: absolute;top: 80px;right: 650px;
+}
+.icon5{
+    position: absolute;top: 180px;right: 750px;
+}
+.icon6{
+    position: absolute;bottom: 80px;right: 750px;
+}
+.icon9{
+    position: absolute;top: 300px;left: 50px;
+}
+
+.block-opp{
+    margin-top: 40px;
+    background-color: #FFA100;
+    border-radius: 20px;
+}
+.block-opp > div{
+    height: 250px;
+ }
+ @media (max-width:750px){
+    .text-2-home{
+        font-size: 1.2rem;
+        color: black!important;
+        text-align: center;
+        margin-top: 15px!important;
+     
+    }
+    .home-box{
+        margin-top: 15px!important;
+        height: 220px!important;
+
+    }
+ }
+ @media (min-width:750px) and (max-width:1200px){
+    .text-2-home{
+        font-size: 1.7rem;
+        color: black!important;
+        text-align: center;
+    }
+ }
+ @media (min-width:750px) and (max-width:1000px){
+    .block-opp{
+        margin-top: 40px;
+        background-color: #FFA100;
+        border-radius: 20px;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+    }
+ }
+
+
+@media (max-width:1000px) {
+    .pad-block{
+        width: 100%!important;
+
+    }
+    .ic-text{
+        display: flex;
+        gap: 5px;
+    }
+    .block-opp{
+        margin-top: 40px;
+        background-color: #FFA100;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+    }
+    /* image1 */
+    .block-opp-1{
+        height: 250px;
+        width: 100%;
+
+        position: relative;
+     }
+    .block-opp-1 div{
+        height: 300px!important;
+        width: 120%;
+        top: -50px;
+
+        position: absolute;
+     }
+     /* image1 */
+
+     /* image2 */
+    .block-opp-2{
+        height: 250px;
+        width: 100%;
+        position: relative;
+        padding-left: 80px;
+     }
+
+     .block-opp-2 div{
+        height: 300px!important;
+        width: 65%;
+        top: -50px;
+
+        position: absolute;
+     }
+     /* image2*/
+
+     /* image3 */
+    .block-opp-3{
+        height: 250px;
+        width: 97%;
+       
+        position: relative;
+       
+     }
+     .block-opp-3 div{
+        height: 200px;
+        width: 120%;
+       
+        position: absolute;
+     }
+     /* image3 */
+
+
+/* image4 */
+    .block-opp-4{
+        height: 250px;
+        width: 100%;
+       
+        padding-left: 80px;
+
+        overflow: hidden;
+     }
+     .block-opp-4 div{
+        height: 250px;
+        width: 130%;
+     }
+     /* image4 */
+
+
+/* image5 */
+    .block-opp-5{
+        height: 250px;
+        width: 100%;
+       
+        position: relative;
+     }
+     .block-opp-5 div{
+        height: 300px;
+        width: 120%;
+       
+        position: absolute;
+        top: -50px;
+     }
+     /* image5 */
+     /* image6 */
+    .block-opp-6{
+        height: 250px;
+        width: 100%;
+       
+        padding-left: 80px;
+        padding-right: 30px;
+     }
+
+
+     .block-opp-6 img{
+    
+        height: 100%;
+        width: 100%;
+     }
+     /* image6 */
+        /* image7 */
+    .block-opp-7{
+        height: 250px;
+        width: 100%;
+       
+     }
+     .block-opp-7 img{
+    
+        height: 100%;
+        width: 100%;
+     }
+        /* image7 */
+           /* image8 */
+    .block-opp-8{
+        height: 250px;
+        width: 100%;
+       
+        position: relative;
+     }
+     .block-opp-8 div{
+        height: 280px;
+       
+       
+        position: absolute;
+       
+     }
+     .block-opp-8 img{
+    
+        height: 100%;
+        width: 100%;
+     }
+        /* image8 */
+    
+   
+   
+    /* .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        } */
+}
+@media (min-width:1000px) {
+    .icon9{
+        display: none;
+    }
+    /* .block-opp{
+        margin-top: 40px;
+        background-color: #FFA100;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+    } */
+    .block-opp-1{
+        
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 0;
+     }
+    .block-opp-2{
+        padding-left: 0;padding-bottom: 0;padding-right: 0;
+     }
+    .block-opp-3{
+padding-left: 30px;padding-right: 20px;padding-top: 15px;padding-bottom: 20px;
+     }
+    .block-opp-4{
+padding-left: 0;padding-right: 30px;padding-bottom: 20px;
+     }
+    .block-opp-5{
+padding-left: 40px;padding-top: 10px;
+     }
+    .block-opp-6{
+       padding-bottom: 10px;
+     }
+    .block-opp-6 div{
+padding-left: 40px;height: 100%;
+     }
+    .block-opp-7{
+padding-left: 80px;
+        
+        padding-bottom: 15px;
+        
+     }
+    .block-opp-7 div{
+
+
+        margin-bottom: 0;
+        height: 100%;
+        
+        
+     }
+     .block-opp-6 img{
+    
+        height: 100%;
+        width: 120%;
+     }
+    .block-opp-7 img{
+        top: -40px;position: absolute;
+        height: 120%;
+        width: 100%;
+     }
+    .block-opp-8{
+        padding-bottom: 8px;
+     }
+     .block-opp-8 div{
+
+
+        margin-bottom: 0;
+        height: 100%;
+        
+        
+     }
+    .block-opp-8 img{
+        top: -40px;position: absolute;
+        height: 120%;
+        width: 100%;
+     }
+    /* .block-opp-8{
+        height: 250px;
+        width: 100%;
+       
+     } */
+    /* .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        } */
+}
+
+@media (min-width:1200px){
+    .block-day{
+        font-weight: bolder;font-family: "Comfortaa", sans-serif;font-size: 5rem;text-align: start;
+    }
+    
+    .home-box{
+        height: 500px;
+       
+    }
+    .down-box{
+        display: flex!important;
+    }
+    .down-box1{
+        display: none!important;
+    }
+    .text-2-home{
+        font-size: 1.8rem;padding-right: 100px;font-family: 'Poppins', sans-serif;
+    }
+    .text-home{
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: white;
+        text-shadow: 3px 0.5px 5px rgb(110, 110, 110)
+    }
+   
+}
+@media (max-width:1200px){
+    .block-day{
+        font-weight: bolder;font-family: "Comfortaa", sans-serif;font-size: 2.5rem;text-align: center!important;
+        font-optical-sizing: auto;
+        font-weight: 900;
+    }
+    
+    .text-home{
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color: white;
+        text-shadow: 3px 0.5px 5px rgb(110, 110, 110)
+    }
+    .home-box{
+        height: 300px;
+
+    }
+    .down-box{
+        display: none!important;
+    }
+    .down-box1{
+        display: flex!important;
+        width: 100%;
+        padding-top: 100px;
+
+        gap: 15px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+    .down-box1 img{
+   
+        max-width: 150!important;
+        max-width: 250!important;
+
+    }
+   
+}

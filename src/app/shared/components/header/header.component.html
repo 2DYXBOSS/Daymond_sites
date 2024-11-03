@@ -1,0 +1,273 @@
+<div class="header-block">
+
+
+  <nav class="navbar navbar-expand-lg style-header" >
+    <div class="container"  style="z-index: 999999999999999999999999999;">
+      <a class="navbar-brand " href="#">
+        <img src="assets/logoA.png" alt="" height="50" />
+      </a>
+     
+      <div class="dropdown" >
+
+      
+       <button class="btn btn-secondary dropdown-toggle navbar-toggler" type="button" (click)="toggleDropdown()" aria-expanded="isDropdownOpen">
+          <img src="assets/Sort.png" alt="" height="30" width="30" />
+        </button>
+        
+        <ul class="dropdown-menu" [ngClass]="{'show': isDropdownOpen}" style="background-color: transparent;">
+        <div class="drop-box">
+          <li><a class="dropdown-item text-center bold" href="#" style="text-transform: uppercase;font-weight: bolder;color: white;"> devenez recruteur 
+            daymond</a></li>
+
+            <li class="nav-item" style="width: 100%;padding-top: 20px;padding-bottom: 20px;" >
+              <button class="home-text-8">Commencez maintenant</button>
+            </li>
+
+          <li style="border-top: 1px solid #ff910090;padding-top: 15px;"><a class="dropdown-item text-center bold" href="#" style="text-transform: uppercase;font-weight: bolder;color: white;"> abonnez-vous</a></li>
+          <li><a class="dropdown-item text-center" href="#"><img src="assets/tianngle.png" alt="" height="5" width="5" /></a></li>
+                  <li> <div >
+                    <ul style="display: flex;justify-content: center;gap: 10px;">
+                      
+                      <li class="nav-item" style="max-width: 30px;" >
+                        <a class="nav-link" href="#" >
+                            <img src="assets/email.png" class="border-style" alt="" height="30" width="30" />
+                        </a>
+                      </li>
+                     <li class="nav-item" style="max-width: 30px;" >
+                        <a class="nav-link" href="#">
+                            <img src="assets/X.png" class="border-style" alt="" height="30" width="30" />
+                        </a>
+                      </li>
+                     <li class="nav-item" style="max-width: 30px;" >
+                        <a class="nav-link" href="#">
+                            <img src="assets/LINKEDING.png" class="border-style" alt="" height="30" width="30" />
+                        </a>
+                      </li>
+                     <li class="nav-item" style="max-width: 30px;" >
+                        <a class="nav-link" href="#">
+                            <img src="assets/face.png" alt="" class="border-style" height="30" width="30" />
+                        </a>
+                      </li>
+                     <li class="nav-item" style="max-width: 30px;" >
+                        <a class="nav-link" href="#">
+                            <img src="assets/INSTA.png" alt="" class="border-style" height="30" width="30" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div></li>
+        </div>
+         
+        </ul>
+
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav" style="height: 100%;">
+        <ul class="navbar-nav ms-auto gap-1 ul-box" >
+          
+          <li class="nav-item">
+            <a class="nav-link" 
+               [ngClass]="{'active': selectedNav === 'agent'}" 
+               (click)="selectNav('agent')">
+               <span>Devenez agent de vente</span>
+              
+            </a>
+          </li>
+          <li class="nav-item">
+           
+            <a class="nav-link" style="background-color: none;border: none
+          ;"  [ngClass]="{'active': selectedNav === 'Devenez recruteur'}" 
+          (click)="selectNav('Devenez recruteur')"   routerLink="/recruiter">
+          
+          <span>Devenez recruteur</span>
+          </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="background-color: none;border: none
+            ;"  [ngClass]="{'active': selectedNav === 'supports'}" 
+            (click)="selectNav('supports')">
+              
+              <span>Supports</span>
+          </a>
+          </li>
+
+
+          
+
+
+          
+          
+          <li class="nav-item">
+            
+            <div class="dropdown" >
+
+              
+             <button class="nav-link text-light dropdown-toggle" [ngClass]="{'active': selectedNav === 'Social Media'}" 
+             (click)="selectNav('Social Media')" type="button" (click)="toggleSocialDropdown()" aria-expanded="isSocialDropdownOpen">
+              Social Media
+            </button>
+            <ul class="dropdown-menu drop-style" [ngClass]="{'show': isSocialDropdownOpen}">
+                <div>
+                  <li><a class="dropdown-item text-center bold" href="#" style="text-transform: uppercase;font-weight: bolder;"> abonnez-vous</a></li>
+                  <li><a class="dropdown-item text-center" href="#"><img src="assets/tianngle.png" alt="" height="5" width="5" /></a></li>
+                  <li> <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-1">
+                      
+                      <li class="nav-item" >
+                        <a class="nav-link" href="#" >
+                            <img src="assets/email.png" class="border-style" alt="" height="30" width="30" />
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/X.png" class="border-style" alt="" height="30" width="30" />
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/LINKEDING.png" class="border-style" alt="" height="30" width="30" />
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/face.png" alt="" class="border-style" height="30" width="30" />
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/INSTA.png" alt="" class="border-style" height="30" width="30" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div></li>
+                </div>
+                
+              </ul>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+     
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+
+
+<!-- 
+
+
+<div style="position: fixed; z-index: 9999; width: 100%;">
+  <nav class="navbar navbar-expand-lg style-header">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logoA.png" alt="" height="50" />
+      </a>
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle navbar-toggler" type="button" (click)="toggleDropdown()" aria-expanded="isDropdownOpen">
+          <img src="assets/Sort.png" alt="" height="30" width="30" />
+        </button>
+        
+        <ul class="dropdown-menu" [ngClass]="{'show': isDropdownOpen}" style="background-color: transparent;">
+          <li>
+            <a class="dropdown-item text-center bold" href="#" style="text-transform: uppercase; font-weight: bolder; color: white;">Devenez recruteur</a>
+          </li>
+          <li class="nav-item" style="width: 100%; padding-top: 20px; padding-bottom: 20px;">
+            <button class="home-text-8">Commencez maintenant</button>
+          </li>
+          <li style="border-top: 1px solid #ff910090; padding-top: 15px;">
+            <a class="dropdown-item text-center bold" href="#" style="text-transform: uppercase; font-weight: bolder; color: white;">Abonnez-vous</a>
+          </li>
+          <li><a class="dropdown-item text-center" href="#"><img src="assets/tianngle.png" alt="" height="5" width="5" /></a></li>
+          <li> <div >
+            <ul style="display: flex;justify-content: center;gap: 10px;">
+              
+              <li class="nav-item" style="max-width: 30px;" >
+                <a class="nav-link" href="#" >
+                    <img src="assets/email.png" class="border-style" alt="" height="30" width="30" />
+                </a>
+              </li>
+             <li class="nav-item" style="max-width: 30px;" >
+                <a class="nav-link" href="#">
+                    <img src="assets/X.png" class="border-style" alt="" height="30" width="30" />
+                </a>
+              </li>
+             <li class="nav-item" style="max-width: 30px;" >
+                <a class="nav-link" href="#">
+                    <img src="assets/LINKEDING.png" class="border-style" alt="" height="30" width="30" />
+                </a>
+              </li>
+             <li class="nav-item" style="max-width: 30px;" >
+                <a class="nav-link" href="#">
+                    <img src="assets/face.png" alt="" class="border-style" height="30" width="30" />
+                </a>
+              </li>
+             <li class="nav-item" style="max-width: 30px;" >
+                <a class="nav-link" href="#">
+                    <img src="assets/INSTA.png" alt="" class="border-style" height="30" width="30" />
+                </a>
+              </li>
+            </ul>
+          </div></li>
+        </ul>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item">
+            <a class="nav-link">Devenez agent de vente</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recruiter">Devenez recruteur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Supports</a>
+          </li>
+          <li class="nav-item dropdown">
+            <button class="nav-link text-light dropdown-toggle" type="button" (click)="toggleSocialDropdown()" aria-expanded="isSocialDropdownOpen">
+              Social Media
+            </button>
+            <ul class="dropdown-menu" [ngClass]="{'show': isSocialDropdownOpen}">
+              <li><a class="dropdown-item text-center bold" href="#">Abonnez-vous</a></li>
+              <li><a class="dropdown-item text-center" href="#"><img src="assets/tianngle.png" alt="" height="5" width="5" /></a></li>
+              <li> <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-1">
+                  
+                  <li class="nav-item" >
+                    <a class="nav-link" href="#" >
+                        <img src="assets/email.png" class="border-style" alt="" height="30" width="30" />
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="assets/X.png" class="border-style" alt="" height="30" width="30" />
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="assets/LINKEDING.png" class="border-style" alt="" height="30" width="30" />
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="assets/face.png" alt="" class="border-style" height="30" width="30" />
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="assets/INSTA.png" alt="" class="border-style" height="30" width="30" />
+                    </a>
+                  </li>
+                </ul>
+              </div></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div> -->
